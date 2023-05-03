@@ -1,8 +1,8 @@
-name: running main.py
+name: send email 11AM
 
 on:
   schedule:
-    - cron: '*/2 * * * *' # everyday at 11AM github actions are not exacly accurate
+    - cron: '0 11 * * *' # everyday at 11AM github actions are not exacly accurate
 
 jobs:
   build:
