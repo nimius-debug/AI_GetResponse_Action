@@ -1,8 +1,7 @@
-# AI Book Recommendation GetResponse_Action
+# AI Book Recommendation with amazon affiliate link GetResponse_Action
 
-AI Book Recommendation GetResponse_Action
-AI Book Recommendation GetResponse_Action is a Python-based application that utilizes OpenAI's GPT-3.5 model to generate a book subject, summary, practical application, and an image(Dall-e). The generated content is then sent to a GetResponse email campaign using the GetResponse API.
-Automated using GithubActions
+AI Book Recommendation GetResponse_Action is a Python-based application that utilizes OpenAI's GPT-3.5 model to generate a book subject, summary, practical application, and an image(Dall-e). The generated content is then sent to a GetResponse email campaign using the GetResponse API. It gets a random book from the file amz_book which is a dictonary with the book and the amz affiliate link and creates all the content to send out in an email using GetRespose. 
+Automated using Github Actions
 
 ## Requirements
 * Python 3.8 or higher
