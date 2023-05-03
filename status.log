@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+=======
+2023-05-03 10:47:44,359 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-03 10:47:44,360 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-03 16:28:32,840 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-03 16:28:32,840 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-03 16:30:15,771 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-03 16:30:15,771 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-03 16:41:10,215 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-03 16:41:10,215 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-03 16:49:44,693 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-03 16:49:44,693 - __main__ - INFO - Token value: Open AI key was accepted!
+>>>>>>> bc9193d8fea637e9d5acc7fb9433977f4c6d6a9c
