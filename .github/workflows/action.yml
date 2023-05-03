@@ -11,7 +11,10 @@ jobs:
 
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content to github runner
-
+        with:
+          persist-credentials: false
+          fetch-depth: 0persist-credentials: false
+            
       - name: setup python
         uses: actions/setup-python@v4
         with:
@@ -34,12 +37,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
-      
-      - name: pull changes from remote
-        run: |
-          git fetch origin
-          git merge origin/main
-          
+
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
