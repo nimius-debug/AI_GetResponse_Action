@@ -3,3 +3,6 @@
 2023-05-03 15:06:55,816 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 522} subject: "Are You Ready for the Ride of Your Life? Discover the Must-Read Secrets in 'The Ride of a Lifetime'" book: The Ride of a Lifetime
 2023-05-03 19:16:55,231 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-03 19:16:55,231 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-04 11:14:45,860 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-04 11:14:45,860 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-04 11:15:17,934 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 522} subject: "Are You Ready to Experience Unprecedented Enlightenment? Discover How in 'Enlightenment Now'" book: Enlightenment Now
