@@ -6,3 +6,6 @@
 2023-05-04 11:14:45,860 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-04 11:14:45,860 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-04 11:15:17,934 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 522} subject: "Are You Ready to Experience Unprecedented Enlightenment? Discover How in 'Enlightenment Now'" book: Enlightenment Now
+2023-05-05 11:13:51,862 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-05 11:13:51,862 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-05 11:14:22,603 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 498} subject: "Unlocking the Secrets of the Mind-Blowing Titan: Are You Ready to Change the Game?" book: Titan
