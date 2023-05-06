@@ -9,3 +9,6 @@
 2023-05-05 11:13:51,862 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-05 11:13:51,862 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-05 11:14:22,603 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 498} subject: "Unlocking the Secrets of the Mind-Blowing Titan: Are You Ready to Change the Game?" book: Titan
+2023-05-06 11:13:16,898 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-06 11:13:16,898 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-06 11:13:49,096 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 498} subject: How can 'Bird by Bird' help you smash through writer's block and finish that novel? book: Bird by Bird
