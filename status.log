@@ -12,3 +12,6 @@
 2023-05-06 11:13:16,898 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-06 11:13:16,898 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-06 11:13:49,096 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 498} subject: How can 'Bird by Bird' help you smash through writer's block and finish that novel? book: Bird by Bird
+2023-05-07 11:12:37,103 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-07 11:12:37,103 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-07 11:13:06,526 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 496} subject: "Stuck in a Rut? Discover How 'The Obstacle Is the Way' to Overcoming Challenges and Finding Success!" book: The Obstacle Is the Way
