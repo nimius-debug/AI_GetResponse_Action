@@ -24,3 +24,6 @@
 2023-05-10 11:13:35,487 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-10 11:13:35,488 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-10 11:14:05,906 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 494} subject: "Are You Paranoid Enough to Survive? Discover the Secrets Inside" book: Only the Paranoid Survive
+2023-05-11 11:13:32,529 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-11 11:13:32,529 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-11 11:14:05,945 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 494} subject: "Are You Brave Enough to Be an Original? Unleash Your Inner Maverick Now!" book: Originals
