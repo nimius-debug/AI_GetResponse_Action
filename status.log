@@ -27,3 +27,6 @@
 2023-05-11 11:13:32,529 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-11 11:13:32,529 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-11 11:14:05,945 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 494} subject: "Are You Brave Enough to Be an Original? Unleash Your Inner Maverick Now!" book: Originals
+2023-05-12 11:13:05,056 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-12 11:13:05,056 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-12 11:13:40,588 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 494} subject: "Is everything we know just the beginning? Discover the secrets of infinite possibilities in 'The Beginning of Infinity'" book: The Beginning of Infinity
