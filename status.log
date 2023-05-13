@@ -30,3 +30,6 @@
 2023-05-12 11:13:05,056 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-12 11:13:05,056 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-12 11:13:40,588 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 494} subject: "Is everything we know just the beginning? Discover the secrets of infinite possibilities in 'The Beginning of Infinity'" book: The Beginning of Infinity
+2023-05-13 11:12:54,098 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-13 11:12:54,098 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-13 11:13:32,023 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 493} subject: "Ready to Elevate Your Dining Experience? Discover the Secrets from 'Setting the Table'" book: Setting the Table
