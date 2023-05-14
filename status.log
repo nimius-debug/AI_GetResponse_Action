@@ -33,3 +33,6 @@
 2023-05-13 11:12:54,098 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-13 11:12:54,098 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-13 11:13:32,023 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 493} subject: "Ready to Elevate Your Dining Experience? Discover the Secrets from 'Setting the Table'" book: Setting the Table
+2023-05-14 11:12:35,944 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-14 11:12:35,944 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-14 11:13:09,504 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 493} subject: "How to break free from bad habits and unleash your full potential: Insights from 'The Power of Habit'" book: The Power of Habit
