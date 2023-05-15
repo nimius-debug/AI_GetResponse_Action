@@ -36,3 +36,6 @@
 2023-05-14 11:12:35,944 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-14 11:12:35,944 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-14 11:13:09,504 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 493} subject: "How to break free from bad habits and unleash your full potential: Insights from 'The Power of Habit'" book: The Power of Habit
+2023-05-15 11:13:40,013 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-15 11:13:40,013 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-15 11:14:12,003 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 493} subject: "Are you ready for the ride of a lifetime? Find out now!" book: The Ride of a Lifetime
