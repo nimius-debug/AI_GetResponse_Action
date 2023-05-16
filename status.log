@@ -3,3 +3,44 @@
 2023-05-03 15:06:55,816 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 522} subject: "Are You Ready for the Ride of Your Life? Discover the Must-Read Secrets in 'The Ride of a Lifetime'" book: The Ride of a Lifetime
 2023-05-03 19:16:55,231 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-03 19:16:55,231 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 15:13:49,990 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 15:13:49,990 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 15:50:28,744 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 15:50:28,745 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 15:52:44,965 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 15:52:44,966 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 15:53:00,218 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 15:53:00,218 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 15:54:42,786 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 15:54:42,786 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 15:55:09,713 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 495} subject: "Are Your Gut Instincts Holding You Back? Discover the Truth About Your Mind with 'Thinking, Fast and Slow'" book: Thinking, Fast and Slow
+2023-05-08 16:37:21,087 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 16:37:21,087 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 16:38:34,915 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 16:38:34,915 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 16:42:15,824 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 16:42:15,825 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 16:42:43,771 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 495} subject: "Discover The Secrets of Shakespeare's Masterpieces with The Oxford Shakespeare - Are You Missing Out?" book: The Oxford Shakespeare
+2023-05-08 16:45:02,254 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 16:45:02,255 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 16:45:57,338 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 16:45:57,338 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 16:46:29,061 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 495} subject: "Ready to Discover Your Personal Legend? Unleash Your Inner Alchemist Today" book: The Alchemist
+2023-05-08 16:51:21,843 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 16:51:21,843 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 16:51:49,946 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 495} subject: "Are you brave enough to challenge the Titans? Discover their secrets inside!" book: Titan
+2023-05-08 17:09:42,635 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 17:09:42,635 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 17:10:09,429 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 495} subject: "Are you ready to confront the hard truths? A message for you between the world and me" book: Between the World and Me
+2023-05-08 17:23:25,673 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-08 17:23:25,673 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-08 17:23:51,837 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 495} subject: "Are You Ready to Win the Ultimate Game? Get Your Guide to 'Ready Player One' Now!" book: Ready Player One
+2023-05-09 13:53:02,913 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-09 13:53:02,913 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-09 13:53:33,529 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 495} subject: "Is the Coddling of the American Mind Brainwashing Our Youth?" book: The Coddling of the American Mind
+2023-05-15 13:36:33,079 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-15 13:36:33,080 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-15 13:37:03,529 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 493} subject: "Could being too comfortable be holding you back? Antifragility will change your perspective." book: Antifragile
+2023-05-16 11:37:46,707 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-16 11:37:46,708 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-16 11:38:20,355 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation<3', 'id': 'MLUJj', 'contacts_count': 444} subject: "Are You Holding Yourself Back? Discover How to Lean In and Achieve Your Goals" book: Lean In
