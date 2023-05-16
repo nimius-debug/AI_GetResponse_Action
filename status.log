@@ -39,3 +39,6 @@
 2023-05-15 11:13:40,013 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-15 11:13:40,013 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-15 11:14:12,003 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation', 'id': 'MLUJj', 'contacts_count': 493} subject: "Are you ready for the ride of a lifetime? Find out now!" book: The Ride of a Lifetime
+2023-05-16 11:13:25,839 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-16 11:13:25,839 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-16 11:14:02,020 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to {'name': 'AI_book_recomendation<3', 'id': 'MLUJj', 'contacts_count': 444} subject: "Are Your Obstacles Holding You Back? Discover the Secret to Turning Them into Your Greatest Advantage" book: The Obstacle Is the Way
