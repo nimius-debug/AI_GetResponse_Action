@@ -1,8 +1,8 @@
-name: NewAction send email
+name: GetResponse OpenAi Email Generator
 
 on:
   schedule:
-    - cron: '0 11 * * *' # everyday at 11AM github actions are not exacly accurate
+    - cron: '0 10 * * *' # everyday at 10AM github actions are not exacly accurate
 
 jobs:
   build:
