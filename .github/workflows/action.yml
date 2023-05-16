@@ -1,4 +1,4 @@
-name: send email 11AM
+name: NewAction send email
 
 on:
   schedule:
