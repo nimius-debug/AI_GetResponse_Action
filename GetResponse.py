@@ -9,13 +9,15 @@ try:
 except KeyError:
     GET_RESPONSE = "GetResponse key not available!"
     GR_key_message = "GetResponse key was not accepted!"
+
+
 class GetResponseAPI:
-    def __init__(self):
+    def __init__(self, book_title):
         self.headers = {
             'Content-Type': 'application/json',
             'X-Auth-Token': f'api-key {GET_RESPONSE}'
         }
-        self.campaign_name = 'AI_book_recommendation' + str(random.randint(1,1000))
+        self.campaign_name = f'{book_title}_AI_book' + str(random.randint(1,1000))
         
     #*-***************************from-fields***************************-#
     def get_from_fields(self):
@@ -83,7 +85,7 @@ class GetResponseAPI:
         return sorted_campaigns
 
     #*-***************************send email to contacts***************************-#
-    def send_email_to_campaign_contacts(self, campaign_id, subject, body_html, body_plain, from_field_id):
+    def send_email_to_campaign_contacts(self, campaign_id,schedule_time, subject, body_html, body_plain, from_field_id):
         message = {
             "content": {
                 "html": body_html,
@@ -106,6 +108,7 @@ class GetResponseAPI:
             "campaign": {
                 "campaignId": campaign_id
             },
+            "sendOn": schedule_time,
             "sendSettings": {
                 "selectedCampaigns": [campaign_id],
                 "selectedSegments": [],
@@ -146,3 +149,4 @@ class GetResponseAPI:
             print(f'Error sending email to campaign (ID: {campaign_id}): {error_message} {response.status_code}')
                 
           
+    

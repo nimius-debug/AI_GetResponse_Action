@@ -1,0 +1,119 @@
+ def html_tamplate(book_title, subject, img_link, summary, practical_use, book_link ):
+ <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{book_title}</title>
+        <style>
+            body {{
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+                line-height: 1.5;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+            }}
+            h1 {{
+                font-size: 24px;
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }}
+            .container p {{
+                font-size:16px;
+                line-height: 2.2;
+            }}
+            .container {{
+                max-width: 600px;
+                margin: 0 auto;
+                padding-top:5px;
+                padding-bottom:30px;
+                padding-right:30px;
+                padding-left:30px;
+                background-color: #f7f7f7;
+                border-style: outset;
+                border-radius: 5px;
+                border-width:3px;
+                line-height: 1.5;
+                
+            }}
+            .button {{
+                margin-top:20px;
+                margin-bottom:20px;
+                margin-left:20px;
+                display: inline-block;
+                padding: 10px 20px;
+                font-size: 18px;
+                color: #fffff6;
+                background-color: #333;
+                border-radius: 4px;
+                text-decoration: none;
+            }}
+            .signature {{
+                font-family: cursive;
+                font-size: 1rem;
+                line-height: 1;
+            }}
+            .bottom {{
+                background-color: #333;
+                color: #fff;
+                padding: 20px;
+                font-size: 14px;
+            }}
+            .hover-link {{
+                color: #FFF; 
+                font-weight: normal;
+                text-decoration: none;
+            }}
+            .hover-link:hover {{
+                color: #708238; 
+                text-decoration: underline; 
+            }}
+            .practical_use{{
+                color:#0B6623;
+                margin-bottom: 20px;
+                font-size:16px;
+                line-height: 2;
+            }}
+        </style>
+    </head>
+    <body>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td align="center">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 600px; margin: 0 auto;">
+                        <tr>
+                            <td>
+                                <div class="container">
+                                    <h1>{subject}</h1>
+                                    <a href={book_link}>
+                                        <img src={img_link} alt={book_title}  >
+                                    </a>
+                                    <div class="summary">
+                                        {''.join([f'<p>{sentence}</p>' for sentence in summary])}
+                                    </div>
+                                    <h3>Real One 💯 </h3>
+                                    <div class="practical_use">
+                                        {''.join([f'<p>{sentence}</p>' for sentence in practical_use])}
+                                    </div>
+                                    <a href={book_link} class="button">
+                                        <strong class="hover-link">Read me!</strong>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bottom">
+                                <p class="signature">Jorge A. Gil</p>
+                                <p>&copy; 2023 JAG LLC. All rights reserved.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+    </html>

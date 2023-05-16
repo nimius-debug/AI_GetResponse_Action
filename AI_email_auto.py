@@ -1,11 +1,13 @@
 import openai
-import amz_books
+import datetime
 import random
 import os
+from helperGR import upload_image_to_getresponse
+# from GetResponse import *
+from base64 import b64decode
+from datetime import datetime
+import pytz
 
-amazon_books = amz_books.amz_book
-# print(amazon_books)
-# Replace with your OpenAI API key
 try:
     OPEN_AI = os.environ['OPEN_AI']
     openai.api_key = OPEN_AI
@@ -15,17 +17,27 @@ except KeyError:
     OPEN_AI = "OPEN_AI Token not available!"
     AI_key_message = "GetResponse key was not avaialble!"
 
+
+IMAGE_SAVE_FOLDER = "img"
+STYLE_LIST = [
+    "Impressionism Monet",
+    "Cubism Picasso",
+    "Street art graffiti",
+    "3D",
+    "Low poly",
+    "Digital painting",
+    "Memphis ,bold, kitch, colourful, shapes"
+]
+
 def get_practical(book_title):
     AI_practical_personality = "You're a helpful assistant that writes practical tips for emails base on books."
     response = openai.ChatCompletion.create(
         model = model_id,
         messages = [
             {"role": "system", "content": AI_practical_personality },
-            {"role": "user", "content": f"What is one practical idea from the {book_title}'s book that you could start applying today?\
-                                        How could this idea help you to learn more and improve your skills? \
-                                        Write a brief paragraph explaining the idea and how you could implement it in your life in 50 words or less.\
-                                        Try to use simple, easy-to-understand vocabulary and be as specific as possible. \
-                                        Remember, the goal is to take action and apply what you've learned from the book to your own life. "},
+            {"role": "user", "content": f"Write one practical idea from the {book_title}'s book that you could start applying today in 50 words or less \
+                                        dont go on details, be practical, funny , and inspirational to convey the most important practical takeaway.\
+                                        Focus on using simple, easy-to-understand and concise language. "},
         ],
         temperature = 1.0,
         max_tokens = 120
@@ -39,14 +51,10 @@ def get_summary( book_title):
         model = model_id,
         messages = [
             {"role": "system", "content": AI_summary_personality },
-            {"role": "user", "content": f"Can you briefly summarize the key ideas of '{book_title}' in 80 words or less?\
-                                        Imagine you're explaining the book to someone who has never read it before.\
-                                        Focus on the most important takeaways, using simple, easy-to-understand language.\
-                                        What are the key themes or concepts that the author explores?\
-                                        What are the main arguments or ideas that the author presents?\
-                                        Try to be as concise as possible, while still conveying the essence of the book.\
-                                        Remember, the goal is to provide a brief summary that will pique \
-                                        someone's interest and encourage them to read the book for themselves."},
+            {"role": "user", "content": f"the goal is to provide a brief summary of '{book_title}' in 80 words or less that will pique \
+                                        someone's interest and encourage them to read the book for themselves.\
+                                        Use story telling, funny and inspirational tone to convey the most important takeaways. Focus on using simple, easy-to-understand language.\
+                                        Try to be as concise as possible, while still conveying the essence of the book."},
         ],
         temperature = 1.0,
         max_tokens = 150
@@ -117,159 +125,41 @@ def get_subject_img(book_title):
     return response.choices[0].message.content
 
 
-def get_image(subject):
-    style = ["Impressionism Monet", 
-            "Cubism Picasso",
-            "Street art graffiti",
-            "Isometric 3D",
-            "Low poly",
-            "Digital painting",
-            "Memphis ,bold, kitch, colourful, shapes",
-            "realistic picture"
-            ]
-    random_style = random.choice(style)
-    response = openai.Image.create(
-        prompt = f"{random_style} of {subject}",
-        n=1,
-        size="256x256"
-    )
-    return response['data'][0]['url']
+def get_image(subject, book_title):
+    random_style = random.choice(STYLE_LIST)
+    try:
+        response = openai.Image.create(
+            prompt=f"{random_style} of {subject}",
+            n=1,
+            size="256x256",
+            response_format="b64_json",
+        )
+    except Exception as e:
+        print(f"Error calling OpenAI API: {e}")
+        return None
 
-book_title = random.choice(list(amazon_books.keys()))
-print(book_title)
-book_link = amazon_books[book_title]
-# img_subject = get_subject_img(book_title)
-# print(img_subject)
-# print(get_image(img_subject, book_title))
-# summary = get_summary(AI_summary_personality,book_title)
-# subject = get_subject(AI_subject_personality,book_title)
-# practical_use = get_practical(AI_practical_personality,book_title)
 
-def html_tamplate(book_title, subject, img_link, summary, practical_use, book_link ):
-    html_email = f"""
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{book_title}</title>
-        <style>
-            body {{
-                font-family: Arial, sans-serif;
-                font-size: 16px;
-                line-height: 1.5;
-                text-align: center;
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                -webkit-text-size-adjust: 100%;
-                -ms-text-size-adjust: 100%;
-            }}
-            h1 {{
-                font-size: 24px;
-                margin-top: 30px;
-                margin-bottom: 20px;
-            }}
-            .container p {{
-                margin-bottom: 50px;
-                font-size:16px;
-                line-height: 2.2;
-            }}
-            .container {{
-                max-width: 600px;
-                margin: 0 auto;
-                padding-top:5px;
-                padding-bottom:30px;
-                padding-right:30px;
-                padding-left:30px;
-                background-color: #f7f7f7;
-                border-style: outset;
-                border-radius: 5px;
-                border-width:3px;
-                line-height: 1.5;
-                
-            }}
-            .button {{
-                margin-top:20px;
-                margin-left:20px;
-                display: inline-block;
-                padding: 10px 20px;
-                font-size: 18px;
-                color: #fffff6;
-                background-color: #333;
-                border-radius: 4px;
-                border-color:red;
-                text-decoration: none;
-            }}
-            .signature {{
-                font-family: cursive;
-                font-size: 1rem;
-                line-height: 1;
-            }}
-            .bottom {{
-                background-color: #333;
-                color: #fff;
-                padding: 20px;
-                font-size: 14px;
-            }}
-            .hover-link {{
-                color: #FFF; 
-                font-weight: normal;
-                text-decoration: none;
-            }}
-            .hover-link:hover {{
-                color: #708238; 
-                text-decoration: underline; 
-            }}
-            li{{
-                color:#0B6623;
-                font-size:18px;
-            }}
-        </style>
-    </head>
-    <body>
-        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-            <tr>
-                <td align="center">
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 600px; margin: 0 auto;">
-                        <tr>
-                            <td>
-                                <div class="container">
-                                    <h1>{subject}</h1>
-                                    <a href={book_link}>
-                                        <img src={img_link} alt={book_title}  >
-                                    </a>
-                                    <p>{summary}</p>
-                                    <div class="container">
-                                        <h3>Real One</h3>
-                                        <li>{practical_use}</li>
-                                    </div>
-                                    <span>
-                                        <strong>More Real Ones >>>>> </strong>
-                                    </span>
-                                    <a href={book_link} class="button">
-                                        <strong class="hover-link">Read me!</strong>
-                                    </a>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="bottom">
-                                <p class="signature">Jorge A. Gil</p>
-                                <p>&copy; 2023 JAG LLC. All rights reserved.</p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </body>
-    </html>
-    """
-    return html_email
+    image_name = f"{book_title}_{response['created']}.png"
+    image_data = response["data"][0]["b64_json"]
+    img_url = save_image(image_data, image_name)
+    return img_url
 
-def plain_text_tamplate(subject, img_link,summary, practical_use, book_link):
-    plain_text_email = f"""{subject} {img_link} {summary} Real One: {practical_use} More Real Ones >>>>>{book_link} Read me!"""
+def save_image(image_data, image_name):
+    decoded_image_data = b64decode(image_data)
+    image_path = os.path.join(IMAGE_SAVE_FOLDER, image_name)
+    with open(image_path, mode="wb") as png:
+        png.write(decoded_image_data)
+    img_url = upload_image_to_getresponse(image_path, image_name)
+    return img_url    
     
-    return plain_text_email
-
+def get_schedule():
+    # Define the timezone
+    tz = pytz.timezone('America/New_York')
+    # Get current date in the defined timezone
+    now = datetime.now(tz)
+    # Set time to 12:30 PM
+    now = now.replace(hour=12, minute=30, second=0, microsecond=0)
+    # Format the datetime in ISO 8601
+    ISO8601_date_string = now.isoformat()
+    print(f"Schedule date: {ISO8601_date_string}")
+    return ISO8601_date_string
