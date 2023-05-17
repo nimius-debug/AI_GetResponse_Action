@@ -3,7 +3,8 @@ name: GetResponse OpenAi Email Generator
 on:
   schedule:
     - cron: '0 10 * * *' # everyday at 10AM github actions are not exacly accurate
-
+  workflow_dispatch:
+    
 jobs:
   build:
     runs-on: ubuntu-latest
