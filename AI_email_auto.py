@@ -35,9 +35,12 @@ def get_practical(book_title):
         model = model_id,
         messages = [
             {"role": "system", "content": AI_practical_personality },
-            {"role": "user", "content": f"Write one practical idea from the {book_title}'s book that you could start applying today in 50 words or less \
-                                        dont go on details, be practical, funny , and inspirational to convey the most important practical takeaway.\
-                                        Focus on using simple, easy-to-understand and concise language. "},
+            {"role": "user", "content": f"Share one practical idea from {book_title}'s book that your friend could start \
+                                    implementing today. Make it concise, practical, and inspiring, using simple language. \
+                                    Imagine you're giving advice that can make a real difference in their life. \
+                                    Don't get lost in details; instead, focus on conveying the book's most important takeaway.\
+                                    Feel free to add a touch of humor to engage and make it memorable. \
+                                    Now, let's hear your practical wisdom "},
         ],
         temperature = 1.0,
         max_tokens = 120
@@ -47,14 +50,19 @@ def get_practical(book_title):
 def get_summary( book_title):
     AI_summary_personality = "You're a storytelling assistant that summarizes books with a humorous, friendly, and conversational tone,\
                         engaging readers interested in launching online businesses or side hustles for passive income."
+    target_audience = "entrepreneurs who want to start a business or side hustle for passive income online" 
     response = openai.ChatCompletion.create(
         model = model_id,
         messages = [
             {"role": "system", "content": AI_summary_personality },
-            {"role": "user", "content": f"the goal is to provide a brief summary of '{book_title}' in 80 words or less that will pique \
-                                        someone's interest and encourage them to read the book for themselves.\
-                                        Use story telling, funny and inspirational tone to convey the most important takeaways. Focus on using simple, easy-to-understand language.\
-                                        Try to be as concise as possible, while still conveying the essence of the book."},
+            {"role": "user", "content": f"Your mission is to create a captivating, concise summary of '{book_title}',\
+                        using a maximum of 100 words. Aim to pique curiosity, inspiring potential readers to explore the book themselves.\
+                        Use the tools of storytelling, humor, and inspiration to illuminate the book's central themes and takeaways. \
+                        Your tone should match the genre of the book, be it light-hearted, suspenseful, or serious. \
+                        Aim for clarity and simplicity in your language, ensuring your summary is accessible to all, \
+                        particularly {target_audience}. While being brief, make sure to capture the overarching theme \
+                        or the main plot, which forms the soul of the book. Your words have the potential to guide someone \
+                        on their next reading adventure. Go forth, captivate, and inspire!"},
         ],
         temperature = 1.0,
         max_tokens = 150
@@ -93,7 +101,7 @@ def get_subject_img(book_title):
                                         Prompt: a chinese person figthing '''\
                                         '''example 3 \
                                         Book: Meditations \
-                                        Prompt: a women doing yoga in the outside'''\
+                                        Prompt: a women doing yoga outside'''\
                                         '''example 4 \
                                         Book: High Growth Handbook \
                                         Prompt: a person studying in a building'''\
@@ -157,8 +165,8 @@ def get_schedule():
     tz = pytz.timezone('America/New_York')
     # Get current date in the defined timezone
     now = datetime.now(tz)
-    # Set time to 12:30 PM
-    now = now.replace(hour=12, minute=30, second=0, microsecond=0)
+    # Set time to 2:30 PM
+    now = now.replace(hour=14, minute=30, second=0, microsecond=0)
     # Format the datetime in ISO 8601
     ISO8601_date_string = now.isoformat()
     print(f"Schedule date: {ISO8601_date_string}")
