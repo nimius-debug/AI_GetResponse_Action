@@ -36,7 +36,7 @@ def get_practical(book_title):
         messages = [
             {"role": "system", "content": AI_practical_personality },
             {"role": "user", "content": f"Share one practical idea from {book_title}'s book that your friend could start \
-                                    implementing today. Make it concise, practical, and inspiring, using simple language. \
+                                    implementing today using a maximum of 80 words. Make it concise, practical, and inspiring, using simple language. \
                                     Imagine you're giving advice that can make a real difference in their life. \
                                     Don't get lost in details; instead, focus on conveying the book's most important takeaway.\
                                     Feel free to add a touch of humor to engage and make it memorable. \
@@ -165,8 +165,8 @@ def get_schedule():
     tz = pytz.timezone('America/New_York')
     # Get current date in the defined timezone
     now = datetime.now(tz)
-    # Set time to 2:30 PM
-    now = now.replace(hour=14, minute=30, second=0, microsecond=0)
+    # Set time to 12:30 PM
+    now = now.replace(hour=12, minute=30, second=0, microsecond=0)
     # Format the datetime in ISO 8601
     ISO8601_date_string = now.isoformat()
     print(f"Schedule date: {ISO8601_date_string}")

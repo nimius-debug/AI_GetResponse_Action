@@ -103,10 +103,10 @@ def simple_html_tamplate(book_title,subject, img_link, summary, practical_use ):
     <head>
         <title>{subject}</title>
     </head>
-    <body style="font-family: Arial, sans-serif; background-color: #E8E8E8;">
+    <body style="font-family: Arial, Helvetica, sans-serif; background-color: #f2f2f2;">
         <div style="max-width: 600px; margin: 0 auto;padding: 10px">
             <div style="padding: 20px; line-height:2.2; font-size: 16px; background-color: #ffffff;">
-            <img src={img_link} alt={book_title}>
+            <img style="float: left; margin-right: 20px;" src={img_link} alt={book_title}>
             {''.join([f'<p>{sentence}</p>' for sentence in summary])}
 
             <h3>Book Nugget 📖 </h3>
@@ -114,7 +114,7 @@ def simple_html_tamplate(book_title,subject, img_link, summary, practical_use ):
             {''.join([f'<p>{sentence}</p>' for sentence in practical_use])}
             
             </div>
-            <div style="font-size: 14px;  padding: 10px;font-family: cursive;">
+            <div style="font-size: 14px; margin-left: 20px; font-weight: bold;">
             <p>"Stay Nuggety"</p>
             <p>Jorge A. Gil </p>
             <p> &copy; 2023 JAG LLC. All rights reserved.</p>
