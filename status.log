@@ -47,3 +47,6 @@
 2023-05-17 14:41:54,170 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-17 14:41:54,170 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-17 14:42:26,066 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Is AI taking over the world? Discover the shocking truth inside 'AI Superpowers'!" book: AI Superpowers
+2023-05-18 10:10:18,960 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-18 10:10:18,961 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-18 10:10:59,596 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are We Failing the Future? Discover the Urgent Lessons in 'What We Owe the Future'" book: What We Owe the Future
