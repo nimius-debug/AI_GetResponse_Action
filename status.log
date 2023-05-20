@@ -53,3 +53,6 @@
 2023-05-19 10:10:29,319 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-19 10:10:29,320 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-19 10:11:12,242 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Is Your Business Stuck in a Rut? Here's How to Rework it for Success" book: Rework
+2023-05-20 10:09:54,225 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-20 10:09:54,225 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-20 10:10:27,215 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are You Winning the Battle? Uncover the Secrets of 'The Art of War'" book: The Art Of War
