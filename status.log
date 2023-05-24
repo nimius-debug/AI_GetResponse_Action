@@ -62,3 +62,6 @@
 2023-05-23 13:41:53,507 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-23 13:41:53,507 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-23 13:42:34,881 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are You Paranoid Enough to Survive? Find Out Inside!" book: Only the Paranoid Survive
+2023-05-24 10:11:08,414 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-24 10:11:08,414 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-24 10:11:55,617 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Want to know the untold story behind Nike's success? Open now to read about it!" book: Shoe Dog
