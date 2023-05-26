@@ -68,3 +68,6 @@
 2023-05-25 10:10:58,835 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-25 10:10:58,835 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-25 10:11:39,357 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are you ready to embark on a harrowing journey? Discover 'The Road' and brace yourself for the ultimate adventure." book: The Road
+2023-05-26 10:10:56,149 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-26 10:10:56,149 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-26 10:11:36,691 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Have You Discovered Einstein's Secret Genius Formula Yet?" book: Einstein
