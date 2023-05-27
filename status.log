@@ -71,3 +71,6 @@
 2023-05-26 10:10:56,149 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-26 10:10:56,149 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-26 10:11:36,691 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Have You Discovered Einstein's Secret Genius Formula Yet?" book: Einstein
+2023-05-27 10:09:49,658 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-27 10:09:49,658 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-27 10:10:32,468 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Ready to Unlock Your Potential and Crush Your Limits? Discover the Secrets Inside Can't Hurt Me" book: Can't Hurt Me
