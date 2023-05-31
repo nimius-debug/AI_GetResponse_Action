@@ -83,3 +83,6 @@
 2023-05-30 10:10:51,929 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-30 10:10:51,930 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-30 10:11:30,706 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are You Ready to Uncover the Secrets of Enlightenment? Discover Them in Siddhartha" book: Siddhartha
+2023-05-31 10:10:47,145 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-05-31 10:10:47,145 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-05-31 10:11:20,052 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Innovation or extinction? Discover the key to survival with 'The Innovator's Dilemma'" book: The Innovator's Dilemma
