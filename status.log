@@ -86,3 +86,6 @@
 2023-05-31 10:10:47,145 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-05-31 10:10:47,145 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-05-31 10:11:20,052 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Innovation or extinction? Discover the key to survival with 'The Innovator's Dilemma'" book: The Innovator's Dilemma
+2023-06-01 10:12:25,317 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-01 10:12:25,317 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-01 10:13:05,355 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Ready to elevate your success game? Discover the 7 habits of highly effective people" book: The 7 Habits of Highly Effective People
