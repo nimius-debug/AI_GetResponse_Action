@@ -92,3 +92,6 @@
 2023-06-02 10:10:19,168 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-02 10:10:19,168 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-02 10:11:03,347 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Unlock Your Hidden Talents with These Surprising Secrets from 'The Talent Code' - Are You Ready?" book: The Talent Code
+2023-06-03 10:09:39,958 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-03 10:09:39,958 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-03 10:10:13,970 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Ready to Unlock Your Full Potential? Discover the Proven Path to Mastery" book: Mastery
