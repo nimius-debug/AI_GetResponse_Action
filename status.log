@@ -95,3 +95,6 @@
 2023-06-03 10:09:39,958 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-03 10:09:39,958 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-03 10:10:13,970 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Ready to Unlock Your Full Potential? Discover the Proven Path to Mastery" book: Mastery
+2023-06-04 10:09:46,941 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-04 10:09:46,941 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-04 10:10:22,416 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are you ready to step into the OASIS? Exciting news inside!" book: Ready Player One
