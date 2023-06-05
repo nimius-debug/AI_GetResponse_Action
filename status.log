@@ -98,3 +98,6 @@
 2023-06-04 10:09:46,941 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-04 10:09:46,941 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-04 10:10:22,416 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are you ready to step into the OASIS? Exciting news inside!" book: Ready Player One
+2023-06-05 10:11:17,793 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-05 10:11:17,793 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-05 10:12:00,375 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Unlock the Secrets of Apple's Success: What Makes Steve Jobs the Ultimate Leader?" book: Becoming Steve Jobs
