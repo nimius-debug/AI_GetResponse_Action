@@ -104,3 +104,6 @@
 2023-06-06 10:10:41,608 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-06 10:10:41,608 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-06 10:11:19,591 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are you struggling with sleep? Discover the surprising reasons 'Why We Sleep' and how to improve it" book: Why We Sleep
+2023-06-07 10:10:50,932 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-07 10:10:50,932 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-07 10:11:27,558 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Is Big Brother watching you? Find out in our exclusive report on 1984" book: 1984
