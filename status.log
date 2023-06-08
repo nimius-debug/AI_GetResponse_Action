@@ -107,3 +107,6 @@
 2023-06-07 10:10:50,932 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-07 10:10:50,932 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-07 10:11:27,558 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Is Big Brother watching you? Find out in our exclusive report on 1984" book: 1984
+2023-06-08 10:10:46,372 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-08 10:10:46,372 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-08 10:11:17,820 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Want to revolutionize your work life? Discover the actionable tips in 'Rework' now" book: Rework
