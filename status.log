@@ -116,3 +116,6 @@
 2023-06-10 10:10:04,143 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-10 10:10:04,143 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-10 10:10:28,702 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are You Truly Educated? Discover the Eye-Opening Memoir That Will Challenge Your Definition of Education" book: Educated
+2023-06-11 10:09:51,446 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-11 10:09:51,446 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-11 10:10:14,535 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are you ready to soar like Jonathan Livingston Seagull? Discover the secret to transcending limits." book: Jonathan Livingston Seagull
