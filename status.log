@@ -119,3 +119,6 @@
 2023-06-11 10:09:51,446 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-11 10:09:51,446 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-11 10:10:14,535 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are you ready to soar like Jonathan Livingston Seagull? Discover the secret to transcending limits." book: Jonathan Livingston Seagull
+2023-06-12 10:11:22,938 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-12 10:11:22,938 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-12 10:11:48,252 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "What's holding you back from the life you want? Discover the power of 'The Courage to Be Disliked'" book: The Courage to Be Disliked
