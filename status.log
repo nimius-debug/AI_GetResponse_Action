@@ -125,3 +125,6 @@
 2023-06-13 10:10:43,789 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-13 10:10:43,790 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-13 10:11:11,925 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are You a Hidden Outlier? Discover the Secrets to Success and Stand Out from the Crowd!" book: Outliers
+2023-06-14 10:10:29,513 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-14 10:10:29,514 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-14 10:10:55,969 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are you ready to soar to new heights like Jonathan Livingston Seagull? Discover the secrets inside" book: Jonathan Livingston Seagull
