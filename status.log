@@ -134,3 +134,6 @@
 2023-06-16 10:10:38,470 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-16 10:10:38,470 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-16 10:11:04,556 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Want to conquer your bad habits? Discover the secret to the Power of Habit inside ⚡️" book: The Power of Habit
+2023-06-17 10:10:12,925 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-17 10:10:12,925 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-17 10:10:36,533 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are You Ready to Challenge Your Beliefs and Get Educated?" book: Educated
