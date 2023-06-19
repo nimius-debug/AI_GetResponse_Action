@@ -140,3 +140,6 @@
 2023-06-18 10:10:05,498 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-18 10:10:05,498 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-18 10:10:29,193 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are You Playing it Safe or Putting Your 'Skin in the Game'? Discover the Game-Changing Secrets Inside" book: Skin in the Game
+2023-06-19 10:11:21,508 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-19 10:11:21,508 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-19 10:11:44,296 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Did Einstein really believe in time travel? Shocking revelations inside!" book: Einstein
