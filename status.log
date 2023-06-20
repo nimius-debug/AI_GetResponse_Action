@@ -143,3 +143,6 @@
 2023-06-19 10:11:21,508 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-19 10:11:21,508 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-19 10:11:44,296 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Did Einstein really believe in time travel? Shocking revelations inside!" book: Einstein
+2023-06-20 10:10:42,425 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-20 10:10:42,425 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-20 10:11:11,692 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Ready for the ultimate bad-day antidote? Hitch a ride with The Hitchhiker's Guide to the Galaxy!" book: The Hitchhiker's Guide to the Galaxy
