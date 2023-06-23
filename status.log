@@ -152,3 +152,6 @@
 2023-06-22 10:10:49,160 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-22 10:10:49,160 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-22 10:11:13,599 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "What if I told you the secrets to unlimited wealth were hidden in 'The Wealth of Nations'?" book: The Wealth of Nations
+2023-06-23 10:12:53,609 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-23 10:12:53,609 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-23 10:13:15,602 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are You Ready to Embrace Vulnerability and Achieve Greatness? Join the Daring Greatly Movement Today!" book: Daring Greatly
