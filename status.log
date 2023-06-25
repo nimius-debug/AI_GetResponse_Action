@@ -158,3 +158,6 @@
 2023-06-24 10:11:15,420 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-24 10:11:15,420 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-24 10:11:39,694 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Is Your Lack of Progress Due to Poor Habits? Discover the Atomic Solution Inside!" book: Atomic Habits
+2023-06-25 10:11:43,039 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-25 10:11:43,039 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-25 10:12:06,791 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Is Your Business Stuck in the Early Adopter Stage? Learn How to Cross the Chasm and Scale Your Company Today" book: Crossing the Chasm
