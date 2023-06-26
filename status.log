@@ -161,3 +161,6 @@
 2023-06-25 10:11:43,039 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-25 10:11:43,039 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-25 10:12:06,791 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Is Your Business Stuck in the Early Adopter Stage? Learn How to Cross the Chasm and Scale Your Company Today" book: Crossing the Chasm
+2023-06-26 10:12:34,529 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-26 10:12:34,529 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-26 10:12:56,604 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Ready to Embrace Vulnerability? Discover the Surprising Benefits of Daring Greatly" book: Daring Greatly
