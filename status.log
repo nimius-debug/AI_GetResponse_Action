@@ -164,3 +164,6 @@
 2023-06-26 10:12:34,529 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-26 10:12:34,529 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-26 10:12:56,604 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Ready to Embrace Vulnerability? Discover the Surprising Benefits of Daring Greatly" book: Daring Greatly
+2023-06-27 10:12:37,442 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-27 10:12:37,442 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-27 10:13:06,422 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Ready to Improve Your Writing Skills? Learn the Secret with 'Bird by Bird'" book: Bird by Bird
