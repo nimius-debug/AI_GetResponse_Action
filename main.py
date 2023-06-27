@@ -8,7 +8,7 @@ import amz_books
 def main():
     amazon_books = amz_books.amz_book
     book_title = random.choice(list(amazon_books.keys()))
-    print(book_title)
+    # print(book_title)
     book_link = amazon_books[book_title]
     
     logger = logging.getLogger(__name__)
@@ -30,7 +30,7 @@ def main():
     #get from_fields and preprocces data
     from_fields = get_response.get_from_fields()
     preprocess_from_fields = get_response.preprocessing_from_fields(from_fields)
-    print(preprocess_from_fields)
+    # print(preprocess_from_fields)
     from_field_id = preprocess_from_fields[0]['id']
     #print(from_field_id)
     
