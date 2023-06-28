@@ -167,3 +167,6 @@
 2023-06-27 10:12:37,442 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-06-27 10:12:37,442 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-06-27 10:13:06,422 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Ready to Improve Your Writing Skills? Learn the Secret with 'Bird by Bird'" book: Bird by Bird
+2023-06-28 10:12:28,922 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-06-28 10:12:28,923 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-06-28 10:14:51,174 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Is the World Order on the Verge of Transformation? Discover the Groundbreaking Insights Inside" book: The Changing World Order
