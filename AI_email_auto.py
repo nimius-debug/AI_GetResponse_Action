@@ -30,12 +30,12 @@ STYLE_LIST = [
 ]
 
 def get_practical(book_title):
-    AI_practical_personality = "You're a helpful assistant that writes practical tips for emails base on books."
+    AI_practical_personality = "You're a helpful assistant that writes practical tips base on books."
     response = openai.ChatCompletion.create(
         model = model_id,
         messages = [
             {"role": "system", "content": AI_practical_personality },
-            {"role": "user", "content": f"Share one practical idea from {book_title}'s book that your friend could start \
+            {"role": "user", "content": f"Share one practical idea from {book_title}'s book could start \
                                     implementing today using a maximum of 80 words. Make it concise, practical, and inspiring, using simple language. \
                                     Imagine you're giving advice that can make a real difference in their life. \
                                     Don't get lost in details; instead, focus on conveying the book's most important takeaway.\
@@ -43,7 +43,7 @@ def get_practical(book_title):
                                     Now, let's hear your practical wisdom "},
         ],
         temperature = 1.0,
-        max_tokens = 120
+        max_tokens = 150
     )
     return response.choices[0].message.content
 
