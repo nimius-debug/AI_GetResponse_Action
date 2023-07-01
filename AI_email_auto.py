@@ -86,7 +86,7 @@ def get_subject( book_title):
     return response.choices[0].message.content
 
 def get_subject_img(book_title):
-    AI_practical_personality = "You're a helpful assistant that writes practical tips for emails base on books."
+    AI_practical_personality = "You're a helpful assistant that writes prompts base on books."
     response = openai.ChatCompletion.create(
         model = model_id,
         messages = [
