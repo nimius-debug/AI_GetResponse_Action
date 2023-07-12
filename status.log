@@ -182,3 +182,6 @@
 2023-07-02 10:11:00,976 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-07-02 10:11:00,976 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-07-02 10:11:24,452 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are You Prepared to Survive in a World of Paranoia?" book: Only the Paranoid Survive
+2023-07-12 11:14:01,922 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-07-12 11:14:01,923 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-07-12 11:14:20,106 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Revolutionize your business with The Lean Startup: Are you ready to become a game changer?" book: The Lean Startup
