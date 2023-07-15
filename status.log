@@ -191,3 +191,6 @@
 2023-07-14 10:12:20,690 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-07-14 10:12:20,690 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-07-14 10:12:43,660 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are You a Selfish Gene? Unveiling the Key to Survival and Success" book: The Selfish Gene
+2023-07-15 10:11:37,476 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-07-15 10:11:37,476 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-07-15 10:11:58,658 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Are These 5 Dysfunctions Sabotaging Your Team's Success?" book: The Five Dysfunctions of a Team
