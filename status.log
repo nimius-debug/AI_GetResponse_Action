@@ -197,3 +197,6 @@
 2023-07-16 10:11:38,708 - __main__ - INFO - Token value: GetResponse key was accepted!
 2023-07-16 10:11:38,708 - __main__ - INFO - Token value: Open AI key was accepted!
 2023-07-16 10:11:59,376 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Discover the Hidden Truths of Economics in One Lesson - Are You Ready?" book: Economics in One Lesson
+2023-07-17 10:13:11,495 - __main__ - INFO - Token value: GetResponse key was accepted!
+2023-07-17 10:13:11,496 - __main__ - INFO - Token value: Open AI key was accepted!
+2023-07-17 10:13:37,636 - __main__ - INFO - message send succesfully from : {'name': 'JAG @ My Cafe Digital', 'id': 'aRcTU', 'email': 'jag@mycafedigital.com'} to MLUJj and MFjPB subject: "Uncover the Secret to Achieving Your Dreams - The Alchemist Reveals All!" book: The Alchemist
